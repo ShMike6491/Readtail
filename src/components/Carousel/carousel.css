@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
+
+.image {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel {
+  margin-top: -20px;
+  background-color: #bcd9c8;
+  padding: 2em 3em;
+}
+
+.description {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  line-height: 1.2em;
+  font-size: 3em;
+  position: absolute;
+  top: 230px;
+  left: 16px;
+  color: white;
+  font-family: 'Caveat', cursive;
+}
+
+.title-description {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  line-height: 1.2em;
+  font-size: 3em;
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  color: white;
+  font-family: 'Oleo Script', cursive;
+}
+
+.description2 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  line-height: 1.2em;
+  font-size: 3em;
+  position: absolute;
+  top: 280px;
+  left: 35%;
+  color: white;
+  font-family: 'Oleo Script', cursive;
+}
+
+.description3 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  line-height: 1.2em;
+  font-size: 3em;
+  position: absolute;
+  top: 150px;
+  right: 10%;
+  color: white;
+  font-family: 'Oleo Script', cursive;
+}

@@ -1,0 +1,37 @@
+.button {
+  background-color: #fdf7eb;
+  border-radius: 0.7em;
+  border: solid 3px #907878;
+  cursor: pointer;
+  padding: 0.5em 1.5em;
+  min-width: 9em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #68524e;
+  position: absolute;
+  top: 30%;
+}
+
+.button:hover {
+  background-color: #907878;
+}
+
+@media all and (max-width: 700px) {
+  .button {
+    top: 100%;
+  }
+}
+
+@media all and (max-height: 700px) {
+  .button {
+    top: 70%;
+  }
+}
+
+@media all and (max-height: 700px) {
+  .button {
+    top: 85%;
+  }
+}

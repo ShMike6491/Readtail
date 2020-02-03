@@ -1,0 +1,67 @@
+.main-container {
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book-container {
+  margin: 2em;
+  box-shadow: 0 4px 2px 2px #000;
+  width: 300px;
+  max-height: 650px;
+  background-color: #ffded1;
+  border-radius: 2em;
+  padding: 1em;
+  text-align: center;
+  color: #907878;
+}
+
+.book-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  text-align: left;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-container h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.book-container button {
+  position: relative;
+  left: -40px;
+  background-color: #ffded1;
+  border-radius: 0.7em;
+  border: solid 3px #907878;
+  cursor: pointer;
+  padding: 0.5em 1.5em;
+  min-width: 9em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #68524e;
+}
+
+.book-container button:hover {
+  background-color: #907878;
+}
+
+.price {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  bottom: -34px;
+  position: relative;
+  right: -80px;
+}

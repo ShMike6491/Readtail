@@ -1,0 +1,36 @@
+header {
+  background-color: #bcd9c8;
+  text-align: center;
+  padding: 15px;
+}
+.logo {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  color: #ffded1;
+}
+.logo .highlight {
+  color: #907878;
+}
+.icon {
+  fill: #907878;
+  height: 50px;
+  position: absolute;
+  right: 70px;
+  top: 15px;
+}
+svg:hover {
+  fill: #68524e;
+}
+
+@media all and (max-width: 600px) {
+  header {
+    text-align: left;
+  }
+
+  .icon {
+    right: 10px;
+  }
+}
